@@ -1,3 +1,5 @@
+import sys
+
 def exercise(base=8):
 	"""
 		Print an invert triangle
@@ -22,4 +24,9 @@ def exercise(base=8):
 		spaces += 1
 		base -= 2
 
-exercise()
+
+if __name__ == "__main__":
+	if(len(sys.argv) <= 1):
+		exercise()
+	else:
+		exercise(int(sys.argv[1]))
