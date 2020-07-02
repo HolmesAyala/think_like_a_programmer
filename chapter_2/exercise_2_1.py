@@ -6,7 +6,7 @@ def exercise(base=8):
 
 		Params:
 
-			base -> The size of the base
+			base -> The size of the base (is even)
 
 		Example
 

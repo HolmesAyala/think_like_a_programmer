@@ -7,7 +7,7 @@ def exercise(width:int = 8) -> None:
 
 		Params:
 
-			width -> The max width of the diamond
+			width -> The max width of the diamond (is even)
 
 		Example
 
